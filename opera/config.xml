@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget xmlns="http://www.w3.org/ns/widgets" id="https://addons.opera.com/extensions/details/im-not-here/" defaultlocale="en" version="1.2" href="https://addons.opera.com/extensions/details/im-not-here/">
+  <name>I'm not here</name>
+  <description>Fake your location by overriding your browser's geolocation data.</description>
+  <author href="http://people.opera.com/danield/">Daniel Davis (@ourmaninjapan)</author>
+  <icon src="images/icon_64.png"/>
+  <preference name="latitude" value="59.956536"/>
+  <preference name="longitude" value="10.764939"/>
+  <preference name="accuracy" value="100"/>
+  <preference name="latitude_user" value=""/>
+  <preference name="longitude_user" value=""/>
+  <preference name="accuracy_user" value="100"/>
+  <license href="http://opensource.org/licenses/MIT"/>
+</widget>
