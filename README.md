@@ -6,7 +6,7 @@ It works by overriding the browser's geolocation data (latitude, longitude, accu
 
 ### Browser Support
 
-* Opera 11+
+* Opera 11+: https://addons.opera.com/extensions/details/im-not-here/
 
 ### License
 
