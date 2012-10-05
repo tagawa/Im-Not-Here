@@ -1,0 +1,58 @@
+* {
+    padding:0;
+    margin:0;
+}
+body {
+    background:#ededff;
+    color:#444444;
+    font-family:"Helvetica Neue", "Free Sans", Arial, Helvetica, sans-serif;
+    padding:20px;
+}
+form {
+    margin:40px;
+}
+label, input, button, output {
+    font-size:1.5em;
+}
+select {
+    font-size:1.2em;
+}
+fieldset {
+    margin:20px auto;
+    width:50%;
+    border:2px solid #d6d6e6;
+    border-radius:10px;
+    padding:20px;
+}
+legend {
+    font-size:2em;    
+    background:url(../images/icon_32.png) top left no-repeat;
+    height:32px;
+    padding:0 10px 0 40px;
+}
+label, button {
+    display:block;
+}
+input, select {
+    margin-bottom:20px;
+}
+button {
+    padding:5px 20px;
+}
+img {
+    vertical-align:middle;
+}
+.help {
+    background:url(../images/help.png) 30px 0px no-repeat;
+    line-height:1.5;
+    margin:0 auto;
+    min-height:24px;
+    padding:0px 0 0 65px;
+    width:50%;
+}
+ul {
+    margin-left:1em;
+}
+button:active {
+    color:#d6ffd6;
+}
