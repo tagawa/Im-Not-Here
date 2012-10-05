@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles/options.css">
+<link rel="icon" href="images/icon_16.png" sizes="16x16" type="image/png">
+<title>I'm Not Here: Preferences</title>
+</head>
+<body>
+<form id="frm_prefs">
+    <fieldset>
+        <legend>I'm Not Here: Preferences</legend>
+        <label for="sel_places">Places:</label> <select id="sel_places"></select>
+        <label for="txt_latitude">Latitude:</label> <input type="number" step="any" id="txt_latitude" name="txt_latitude" min="-90" max="90" required>
+        <label for="txt_longitude">Longitude:</label> <input type="number" step="any" id="txt_longitude" name="txt_latitude" min="-180" max="180" required>
+        <label for="txt_accuracy">Accuracy (metres):</label> <input type="number" id="txt_accuracy" name="txt_accuracy" required min="0">
+        <button id="btn_save" type="submit"><img src="images/save.png" width="24" height="24" alt="Save"> Save</button>
+    </fieldset>
+</form>
+
+<div class="help">
+    <p>You can get coordinates from <a href="http://www.itouchmap.com/latlong.html">iTouchMap.com</a></p>
+    <p>You can test it's working here:</p>
+    <ul>
+        <li><a href="http://html5demos.com/geo">html5demos.com/geo</a></li>
+        <li><a href="http://www.psyked.co.uk/geolocation/">psyked.co.uk/geolocation</a></li>
+    </ul>
+</div>
+
+<script src="scripts/places.js"></script>
+<script src="scripts/options.js"></script>
+</body>
+</html>
